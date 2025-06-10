@@ -1,135 +1,102 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta
-            name="description"
-            content="Elixir Ruhr: Regular Meetup for Elixir Enthusiasts"
-        />
-        <title>Elixir Ruhr Meetup</title>
-        <link rel="icon" type="image/png" href="favicon.png" />
-        <!-- Tailwind CSS via CDN -->
-        <script src="https://cdn.tailwindcss.com"></script>
-        <style>
-            .elixir-purple {
-                color: #432261;
-            }
-        </style>
-    </head>
-    <body class="bg-gray-50 text-gray-800 font-sans">
-        <header class="bg-white py-10 mb-10 mt-6">
-            <div class="container mx-auto flex flex-col items-center">
-                <img
-                    src="elixir_ruhr_logo.png"
-                    alt="Elixir Ruhr Logo"
-                    class="h-32 mb-6"
-                />
-                <h1
-                    class="text-4xl md:text-5xl font-extrabold elixir-purple mb-2 text-center"
-                >
-                    Elixir Ruhr Meetup
-                </h1>
-                <hr
-                    class="border-t border-violet-100 w-20 mb-4 rounded-full opacity-60"
-                />
-                <p
-                    class="text-lg md:text-xl elixir-purple text-center max-w-2xl mb-2"
-                >
-                    Join Elixir enthusiasts from the Ruhr Area for inspiring
-                    talks, lively discussions, and great company!
-                </p>
-            </div>
-        </header>
-        <main class="container mx-auto px-4">
-            <section class="mb-10">
-                <h2 class="text-xl font-semibold elixir-purple mb-2">About</h2>
-                <hr
-                    class="border-t border-purple-50 w-14 mb-4 rounded-full opacity-30"
-                />
-                <p>
-                    Elixir Ruhr is a welcoming meetup for everyone excited about
-                    Elixir, Erlang, and the BEAM community. All experience
-                    levels are welcome!
-                </p>
-            </section>
-            <section class="mb-8">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Elixir Ruhr: Regular Meetup for Elixir Enthusiasts" />
+    <title>Elixir Ruhr Meetup</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .elixir-purple {
+            color: #432261;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans">
+    <header class="bg-white py-10 mb-10 mt-6">
+        <div class="container mx-auto flex flex-col items-center">
+            <img src="elixir_ruhr_logo.png" alt="Elixir Ruhr Logo" class="h-32 mb-6" />
+            <h1 class="text-4xl md:text-5xl font-extrabold elixir-purple mb-2 text-center">
+                Elixir Ruhr Meetup
+            </h1>
+            <hr class="border-t border-violet-100 w-20 mb-4 rounded-full opacity-60" />
+            <p class="text-lg md:text-xl elixir-purple text-center max-w-2xl mb-2">
+                Join Elixir enthusiasts from the Ruhr Area for inspiring
+                talks, lively discussions, and great company!
+            </p>
+        </div>
+    </header>
+    <main class="container mx-auto px-4">
+        <section class="mb-10">
+            <h2 class="text-xl font-semibold elixir-purple mb-2">About</h2>
+            <hr class="border-t border-purple-50 w-14 mb-4 rounded-full opacity-30" />
+            <p>
+                Elixir Ruhr is a welcoming meetup for everyone excited about
+                Elixir, Erlang, and the BEAM community. All experience
+                levels are welcome!
+            </p>
+        </section>
+        <section class="mb-8">
+            <div class="flex flex-col md:flex-row md:space-x-8 items-stretch">
+                <!-- Discord Card -->
                 <div
-                    class="flex flex-col md:flex-row md:space-x-8 items-stretch"
-                >
-                    <!-- Discord Card -->
-                    <div
-                        class="flex-1 bg-white/80 rounded-2xl shadow-md border border-purple-100 p-7 mb-6 md:mb-0 flex flex-col justify-start relative overflow-hidden"
-                    >
-                        <h2
-                            class="text-xl font-semibold elixir-purple mb-2 flex items-center"
-                        >
-                            <span class="pr-2">Join our Discord</span>
-                        </h2>
-                        <p class="mb-3 text-gray-700">
-                            Elixir Ruhr is currently being rebuilt together with
-                            the local community!<br />
-                            For discussion, questions, or if you want to stay up
-                            to date, join our server:
-                        </p>
-                        <a
-                            href="https://discord.gg/TRqQcxRMjq"
-                            class="inline-flex items-center gap-2 bg-purple-100 hover:bg-purple-200 elixir-purple px-4 py-2 rounded-lg font-semibold shadow transition"
-                            target="_blank"
-                            rel="noopener"
-                        >
-                            <span>discord.gg/TRqQcxRMjq</span>
-                        </a>
-                        <p class="mt-3 text-sm text-gray-500">
-                            Everyone is welcome - whether you want to get
-                            involved, share ideas, or just hang out and follow
-                            along.
-                        </p>
-                    </div>
-                    <!-- Meetup Date Card -->
-                    <div
-                        class="flex-1 bg-white rounded-2xl shadow-md border border-purple-100 p-7 flex flex-col justify-start min-w-[260px]"
-                    >
-                        <h2
-                            class="text-xl font-semibold elixir-purple flex items-center gap-2 mb-2"
-                        >
-                            Join our Meetup Group
-                        </h2>
-                        <p class="mb-3 text-gray-700">
-                            Join our group on meetup.com to be notified about
-                            new dates and to be part of the community.
-                        </p>
-                        <a
-                            href="https://www.meetup.com/elixir-ruhr-meetup/"
-                            class="inline-flex items-center mb-3 gap-2 bg-purple-100 hover:bg-purple-200 elixir-purple px-4 py-2 rounded-lg font-semibold shadow transition"
-                            target="_blank"
-                            rel="noopener"
-                        >
-                            meetup.com/elixir-ruhr-meetup
-                        </a>
-                        <div class="text-gray-500 text-sm">
-                            The date for our next meetup is still to be
-                            announced.
-                        </div>
+                    class="flex-1 bg-white/80 rounded-2xl shadow-md border border-purple-100 p-7 mb-6 md:mb-0 flex flex-col justify-start relative overflow-hidden">
+                    <h2 class="text-xl font-semibold elixir-purple mb-2 flex items-center">
+                        <span class="pr-2">Join our Discord</span>
+                    </h2>
+                    <p class="mb-3 text-gray-700">
+                        Elixir Ruhr is currently being rebuilt together with
+                        the local community!<br />
+                        For discussion, questions, or if you want to stay up
+                        to date, join our server:
+                    </p>
+                    <a href="https://discord.gg/TRqQcxRMjq"
+                        class="inline-flex items-center gap-2 bg-purple-100 hover:bg-purple-200 elixir-purple px-4 py-2 rounded-lg font-semibold shadow transition"
+                        target="_blank" rel="noopener">
+                        <span>discord.gg/TRqQcxRMjq</span>
+                    </a>
+                    <p class="mt-3 text-sm text-gray-500">
+                        Everyone is welcome - whether you want to get
+                        involved, share ideas, or just hang out and follow
+                        along.
+                    </p>
+                </div>
+                <!-- Meetup Date Card -->
+                <div
+                    class="flex-1 bg-white rounded-2xl shadow-md border border-purple-100 p-7 flex flex-col justify-start min-w-[260px]">
+                    <h2 class="text-xl font-semibold elixir-purple flex items-center gap-2 mb-2">
+                        Join our Meetup Group
+                    </h2>
+                    <p class="mb-3 text-gray-700">
+                        Join our group on meetup.com to be notified about
+                        new dates and to be part of the community.
+                    </p>
+                    <a href="https://www.meetup.com/elixir-ruhr-dev/"
+                        class="inline-flex items-center mb-3 gap-2 bg-purple-100 hover:bg-purple-200 elixir-purple px-4 py-2 rounded-lg font-semibold shadow transition"
+                        target="_blank" rel="noopener">
+                        meetup.com/elixir-ruhr-dev
+                    </a>
+                    <div class="text-gray-500 text-sm">
+                        The date for our next meetup is still to be
+                        announced.
                     </div>
                 </div>
-            </section>
-        </main>
-        <footer
-            class="text-center py-6 text-sm text-gray-500 bg-gray-50 border-t mt-12"
-        >
-            Organized by 9elements GmbH &middot;
-            <a
-                href="https://9elements.com/imprint"
-                class="elixir-purple hover:underline"
-                target="_blank"
-                rel="noopener"
-                >Imprint</a
-            >
-        </footer>
-        <script>
-            document.getElementById("year").textContent =
-                new Date().getFullYear();
-        </script>
-    </body>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center py-6 text-sm text-gray-500 bg-gray-50 border-t mt-12">
+        Organized by 9elements GmbH &middot;
+        <a href="https://9elements.com/imprint" class="elixir-purple hover:underline" target="_blank"
+            rel="noopener">Imprint</a>
+    </footer>
+    <script>
+        document.getElementById("year").textContent =
+            new Date().getFullYear();
+    </script>
+</body>
+
 </html>

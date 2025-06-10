@@ -13,7 +13,7 @@ Elixir Ruhr is currently being rebuilt together with the local community.
   [https://discord.gg/TRqQcxRMjq](https://discord.gg/TRqQcxRMjq)
 
 - **Meetup.com Group:** Join our group on meetup.com:
-  [https://www.meetup.com/elixir-ruhr-meetup/](https://www.meetup.com/elixir-ruhr-meetup/)
+  [https://www.meetup.com/elixir-ruhr-dev/](https://www.meetup.com/elixir-ruhr-dev/)
 
 ## About
 
